@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Djavan</title>
+  <link rel="stylesheet" href="style18.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <span class="site-title">Djavan</span>
+      <div class="header-buttons">
+        <button id="btn-autores" class="btn-primario">Músicas</button>
+        <button id="btn-imagens" class="btn-primario">Imagens</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="texto">
+        <h2>Djavan</h2>
+        <p>
+          Djavan Caetano Viana, conhecido apenas como Djavan, é um cantor, compositor e multi-instrumentista brasileiro,
+          famoso por unir o samba, jazz, bossa nova e música pop com uma poética única.
+        </p>
+        <p>
+          Suas canções são marcadas por metáforas e melodias ricas, tornando-o um dos artistas mais respeitados da MPB.
+          Desde os anos 1970, Djavan encanta o público com sua originalidade e sensibilidade musical.
+        </p>
+      </div>
+
+      <div class="imagem">
+        <img src="djavanlogo.jpg" alt="Djavan ao vivo" />
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 - Djavan | Música e Poesia Brasileira | Feito por Hevelyn
+  </footer>
+
+ 
+  <div id="modal-autores" class="modal" hidden>
+    <div class="modal-overlay" data-close="true"></div>
+    <div class="modal-content">
+      <header class="modal-header">
+        <h3>Principais Músicas</h3>
+        <button id="modal-close-autores" class="modal-close">×</button>
+      </header>
+      <div class="modal-body">
+        <ol>
+          <li>Oceano</li>
+          <li>Flor de Lis</li>
+          <li>Se...</li>
+          <li>Sina</li>
+          <li>Meu Bem Querer</li>
+        </ol>
+      </div>
+      <footer class="modal-footer">
+        <button id="modal-close-autores-2" class="btn-primario">Fechar</button>
+      </footer>
+    </div>
+  </div>
+
+
+  <div id="modal-imagens" class="modal" hidden>
+    <div class="modal-overlay" data-close="true"></div>
+    <div class="modal-content">
+      <header class="modal-header">
+        <h3>Imagens Djavan</h3>
+        <button id="modal-close-imagens" class="modal-close">×</button>
+      </header>
+      <div class="modal-body imagens-grid">
+        <img src="djavan1.jpg" alt="Djavan ao vivo" />
+        <img src="djavan2.jpg" alt="Djavan 2010" />
+        <img src="djavan3.jpg" alt="Djavan 2008" />
+      </div>
+      <footer class="modal-footer">
+        <button id="modal-close-imagens-2" class="btn-primario">Fechar</button>
+      </footer>
+    </div>
+  </div>
+
+  <script src="app18.js" defer></script>
+</body>
+</html>
